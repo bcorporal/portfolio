@@ -1,0 +1,96 @@
+/* universal styling for the header..top border */
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header nav bar is black, My Full name */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    height: 100px;
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 0 0 0 0;
+}
+
+/* navbar button text without hover is green and has white background */
+.navbar a {
+    color: greenyellow;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: white;
+    border-radius: 50em;
+    margin: 5px 5px;
+}
+
+/* Navbar text turns black when you hover over */
+.navbar a:hover {
+    color: black;
+    transition: 1s;
+}
+
+.navlist {
+    padding: 15px 5px;
+}
+
+/* Buttons turn green when you hover over */
+.navlist a:hover {
+    transition: 2s;
+    background: greenyellow;
+}
+
+/* header navigation button properties */
+li { 
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    padding: 14px 16px;
+    margin: 0;
+    overflow: hidden;
+}
+   
+
+/* .body1 {
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+} */
+
+
+@media screen and (max-width: 992px) {
+    .navbar {
+      background: #000000;
+      flex-direction: column;
+      position: relative;
+      top: 0px;
+      padding: 100px 10px 0px;
+    }
+    
+    .navlist a {
+        flex-direction: column;
+    }
+    div {
+        display: flex;
+    }
+
+    @media screen and (min-width: 600px) {
+        .navbar {
+          background: black;
+          flex-direction: column;
+          position: relative;
+          top: 0px;
+          padding: 100px 10px 0px;
+        }
+        .navlist a {
+            flex-direction: column;
+        }
+        div {
+            display: flex;
+        }
