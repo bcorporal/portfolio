@@ -5,49 +5,97 @@
     margin: 0;
 }
 
-/* header nav bar is black, My Full name */
-.navbar {
+.body {
+    background: red;
+}
+
+.headercontainer .flex {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+
+
+/* logo is My Full name */
+.logo {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 40px;
-    height: 100px;
-    line-height: 100px;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 0 0 0 0;
+    margin-left: 50px;
+    
+}
+/* top navbar header color */
+.navbar {
+    position: fixed;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    
 }
 
-/* navbar button text without hover is green and has white background */
+/* navbar list direction */
+.navbar ul {
+    display: flex;
+    padding: -30px;
+    margin: 0 5px;
+}
+
+/* .navbar .flex {
+    justify-content: space-between;
+} */
+
+/* navbar button text  */
 .navbar a {
-    color: greenyellow;
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 8px;
     background: white;
-    border-radius: 50em;
-    margin: 5px 5px;
+    /* border-radius: 50em; */
+    margin: 15px 5px;
+    cursor: pointer;
 }
-
 /* Navbar text turns black when you hover over */
 .navbar a:hover {
     color: black;
     transition: 1s;
 }
-
-.navlist {
-    padding: 15px 5px;
-}
-
 /* Buttons turn green when you hover over */
-.navlist a:hover {
+.navbar a:hover {
     transition: 2s;
     background: greenyellow;
 }
 
+
+ul {
+    list-style-type: none;
+}
+
+/* .navlist {
+    padding: 15px 5px;
+} */
+
 /* header navigation button properties */
 li { 
-    display: inline;
+    display: flex;
     list-style-type: none;
     font-size: 25px;
     color: white;
@@ -56,41 +104,222 @@ li {
     overflow: hidden;
 }
    
+/* .softwaredev {
+    /* margin: 0px 100px 0px; */
+    /* display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-family: monospace
+} */ 
 
-/* .body1 {
-    font-family: monospace;
-    color: black;
+.art {
+    width: 100%;
+    display: block;
+    height: 25px;
+}
+
+.bottom-left {
+    font-size: 75px;
+    font-style: italic;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: greenyellow;
+    -webkit-text-fill-color: rgb(0, 0, 0) ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 115%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    flex: flex-end;
+    position: relative;
+    padding: 0px 0px 0px;
+    margin: -35px 0px 10px;
+    }
+
+p {
     font-size: 20px;
+    text-align: center;
+    padding: 15 5px;   
+}
+h2 {
+    text-align: center;
+   
+
+}
+
+
+  /* .product-image {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 250px 600px 50px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+  } */
+
+  
+/* about me */
+.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-top: -925px;
+    padding-left: 100px;
+    display: flex;   
+}
+
+/* work */
+/* .h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 510px;
+    padding-left: 100px;
 } */
 
+/* bio part */
+/* h3 {
+    font-family: sanserif;
+    margin-left: 330px;
+    margin-top: -100px;
+} */
 
-@media screen and (max-width: 992px) {
-    .navbar {
+/* .vertical1 {
+    border-left: 5px solid black;
+    height: 250px;
+    margin-left: 300px;
+    margin-top: 200px;
+    } */
+/* .vertical2 {
+    border-left: 5px solid black;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 75px;
+    } */
+
+/* .article {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+} */
+
+/* .h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-top: -925px;
+    padding-left: 100px;
+} */
+
+/* .container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: gray; 
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between; 
+}*/
+
+/* /.container { */
+    display: flex;
+    background-color: black;
+    height: 750px;
+    width: 50rem;
+    margin: 10px;
+    margin-right: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    
+
+/*.box1 {
+    color: white;
+    min-height: 400px;
+    background: black;
+    margin: 10px;
+    width: 50rem;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+    align-self: center;
+    
+}
+
+.box2 {
+    color: white;
+    min-height: 200px;
+    background: black;
+    margin: 10px;
+    width: 400px;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+}
+
+.box3 {
+    color: white;
+    min-height: 200px;
+    background: black;
+    margin: 10px;
+    width: 400px;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+}
+
+.box4 {
+    color: white;
+    min-height: 200px;
+    background: black;
+    margin: 10px;
+    width: 400px;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+}
+
+.box5 {
+    color: white;
+    min-height: 200px;
+    background: black;
+    margin: 10px;
+    width: 400px;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+} */
+
+ @media screen and (max-width: 992px) {
+    .navbar .headercontainer {
       background: #000000;
       flex-direction: column;
       position: relative;
       top: 0px;
       padding: 100px 10px 0px;
-    }
-    
-    .navlist a {
+    } 
+
+ /* developer */ 
+
+    /* .navlist a {
         flex-direction: column;
     }
     div {
         display: flex;
-    }
+    }  */
 
     @media screen and (min-width: 600px) {
-        .navbar {
+        .navbar .headercontainer {
           background: black;
           flex-direction: column;
           position: relative;
           top: 0px;
           padding: 100px 10px 0px;
         }
-        .navlist a {
+        /* .navlist a {
             flex-direction: column;
         }
         div {
             display: flex;
-        }
+        } */
