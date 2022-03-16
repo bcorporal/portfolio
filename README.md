@@ -1,6 +1,7 @@
 # portfolio
 
 BRANDON CORPORAL Penn LPS Coding Bootcamp Student
+portfolio link https://bcorporal.github.io/portfolio/
 
 ## Description
 
