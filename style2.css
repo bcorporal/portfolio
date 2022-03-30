@@ -1,0 +1,28 @@
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+}
+
+.navbar-end {
+
+}
+
+body  {
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
+.nav-links {
+color: red;
+}
