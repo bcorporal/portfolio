@@ -1,233 +1,35 @@
-/* universal styling for the header..top border */
-* { 
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    }
-
-/* Header Style */
-.headertest {
-    overflow: hidden;
-    background-color: black;
-    padding: 20px 10px;
-    }
-
-/* logo styling only for logo */
-.logotest {
-    display: flex;
-    cursor: crosshair;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: auto; 
-    margin-left: 0px;
-    padding-top: 0rem;
-    } 
-
-/* Logo styling */
-.headertest a.logotest {
-    font-size: 30px;
-    font-weight: bold;
-    } 
-
-/* Header and Logo link styling */
-.headertest a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 25px;
-    border-radius: 4px;
-    }
-.header-right {
-    font-family: monospace;
-}
-
-/* header styling when shrinking screen */
-.header-right {
-    float: right;  
-    }
-
-.developer {
+h2 {
+    font-family: 'Work Sans', sans-serif;
     font-size: 50px;
-    font-style: italic;
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: greenyellow;
-    -webkit-text-fill-color: rgb(0, 0, 0) ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    } 
-
-/* navbar list direction */
-.navbar ul  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3.5rem;
-    margin: 0 52px;
-    }
-
-/* Header text */
-.headertest {
-    font-family: monospace;
-    font-size: 30px;
-    text-decoration: none;
-    padding: 8px;
-    /* margin: 15px 5px; */
-    }
-
-/* logo header text transition on hover */
-.header-right a:hover {
-    color:black;
-    transition:6s;
-}
-
-/* Header Buttons and logo turn green when you hover over */
-.header-right a:hover {
-    transition: 2s;
-    background: greenyellow;
-    border-radius: 50em;
-}
-
-h5 {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 5px;
-    flex-direction: row;
-    padding-left: 2em;    
-}
-
-main section aside {
-    flex: 1;
-    border-right: 3px solid gray;
-    color: black;
-    text-align: right;
-    margin: 1em 0em;
-    padding: 1em;
-  }
-
-main section div {
-    flex: 3;
-    text-align: left;
-    margin: 1rem;
-    padding: 1rem;
-}
-
- main section {
-  display: flex;
-  color: black;
-  padding: 0%;
-}
-
-aside p {
-    display: flex;
-    font-size: 50px;
-    width: 25%;
-    height: 7em;
-    border-right: 5px solid black;
-    margin-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-}
-
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    display: block;
-    margin-right: 1em;
-    /* margin-left: 10em; */
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    /* padding-right: 5em;
-    padding-left: 5em; */
-   /* margin-right: 2px;
-    margin-left: 15rem; */
-    /* overflow: hidden; */
-    /* border-style: solid;
-    border-width: 2px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    /* border-color: greenyellow; */
-    /* outline: 5px black; */
-}
-
-.portfolio {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: auto;
-    max-height:100%;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
     
 }
 
-.profile {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    padding-top: 2rem;
-    border-radius: 50%;
-}
 
-.work {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 2rem;
-}
-
-
- .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    background-image: url(./assets/peakpx.jpg);
+  }
+  
+.dark-mode {
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 5px;
-    overflow: hidden;
-    float: right;
-} 
+  }
 
-
-   
-.container {
-  /* border-style: solid; */
-  font-size: 30px;
-  border-width: 4px;
-  border-radius: 1px;
-  padding: 10px;
-  flex: 0 0 300px;
-  transform: rotate(0deg);
-  /* box-shadow: 10px 10px 5px #aaaaaa; */
-  margin: 10px;
+.footer {
+    background-color: white;
 }
 
+h1 {
+    color: red;
+}
 
-/* screen shrinking properties for mobile */
-@media screen and (max-width: 500px) {
-    .headertest a {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-/* menu shrinking properties for mobile */
-     .header-right {
-      float: none;
-    }
-        
+p {
+    font-size: 20px;
+}
 
-
+.nav-links {
+color: red;
+}

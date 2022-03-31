@@ -13,4 +13,5 @@ Bio
 Portfolio
 Contact info
 
-![alt text](./assets/PORTFOLIO%20SCREENSHOT.png)
+![alt text](./assets/updatescreenshotmain.png)
+![alt text](./assets/updatescreenshot2.png)
