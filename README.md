@@ -1,17 +1,17 @@
 # portfolio
 
-BRANDON CORPORAL Penn LPS Coding Bootcamp Student
 portfolio link https://bcorporal.github.io/portfolio/
+Github repo https://github.com/bcorporal/portfolio.git
 
 ## Description
 
-My name is Brandon and I am new to coding. This is my first official Dev portfolio. 
-
+Hello my name is Brandon Corporal here this is my developer portfolio. I am currently a student at Penn Lps Coding Bootcamp and graduating in May.
+ 
 ## Features
 
 Bio
-Portfolio
+Portfolio showcase
 Contact info
 
-![alt text](./assets/updatescreenshotmain.png)
-![alt text](./assets/updatescreenshot2.png)
+![alt text](./assets/portfoliogif.gif)
+
