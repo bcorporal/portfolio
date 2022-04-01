@@ -13,5 +13,5 @@ Bio
 Portfolio showcase
 Contact info
 
-![alt text](./assets/portfoliogif.gif)
+![alt text](./assets/profileupdat3gif2.gif)
 
