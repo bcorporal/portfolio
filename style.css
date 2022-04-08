@@ -38,7 +38,9 @@ p {
 }
 .navbar-custom:hover {
   background-color: black;
-  color: red
+  color: red;
+
+  
 }
 
 .title-custom {
