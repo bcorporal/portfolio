@@ -1,6 +1,6 @@
 h2 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: monospace;
     
 }
 
@@ -34,7 +34,7 @@ p {
 
 .navbar-custom {
     color: white;
-    font-size: 1.9em;
+    font-size: 1.5em;
 }
 .navbar-custom:hover {
   background-color: black;
