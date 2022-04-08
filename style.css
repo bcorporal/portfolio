@@ -21,11 +21,8 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     
-  }
-
-.footer {
-    background-color: white;
 }
+
 
 h1 {
     color: red;
@@ -35,6 +32,11 @@ p {
     font-size: 20px;
 }
 
-.nav-links {
-color: red;
+.navbar-custom {
+    color: white;
+    font-size: 1.9em;
+}
+.navbar-custom:hover {
+  background-color: black;
+  color: red
 }
