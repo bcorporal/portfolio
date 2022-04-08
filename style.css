@@ -1,6 +1,6 @@
 h2 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     
 }
 
@@ -40,3 +40,13 @@ p {
   background-color: black;
   color: red
 }
+
+.title-custom {
+    font-size: 20px;
+
+} 
+
+.heading {
+    font-size: 15px;
+}
+
