@@ -52,3 +52,10 @@ p {
     font-size: 15px;
 }
 
+.title {
+    font-size: 27px;
+}
+
+.title.is-3 {
+    font-size: 29px;
+}
