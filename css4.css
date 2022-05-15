@@ -2,6 +2,7 @@
 /* YEHHHH */
 body {
   background-color:#000000;
+  background-image: linear-gradient(BLACK, BLACK, BLACK, BLACK, white, WHITE);
     padding-top:40px;
   padding-left:20px;
   padding-right:20px;
@@ -37,9 +38,16 @@ body {
   } */
 
  P {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Koulen' cursive;
     color: #ffffff;
+    animation: glitch 1s linear infinite;
+
+  }  
+  P8 {
+    font-size: 20px;
+    font-family: 'Koulen' cursive;
+    color: #000000;
     animation: glitch 1s linear infinite;
 
   }  
@@ -87,6 +95,11 @@ body {
   h7 {
     color: #fff;
   }
+  h8 {
+    font-size: 90px;
+    font-family: 'Koulen';
+    color: #000000;
+  }   
   hr {
     border: none;
     border-style: dotted;
@@ -264,7 +277,7 @@ body {
     }
     .btn {
     color: #fff;
-    padding: 14px 26px;
+    padding: 14px 55px;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;

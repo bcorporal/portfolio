@@ -114,8 +114,8 @@ function myFunction() {
     for (let i = 0; i < frameCount; i++) {
       const rVal = Math.random() * 0.05 - 0.025;
   
-      channelData0[i] = i < frameCount / 2.0 ? rVal * 0.8 : rVal;
-      channelData1[i] = popCount < 3 && Math.abs(rVal) > 0.0249975 ? (rVal < 0 ? -0.9 : 0.9) : 0.0;
+      // channelData0[i] = i < frameCount / 2.0 ? rVal * 0.8 : rVal;
+      // channelData1[i] = popCount < 3 && Math.abs(rVal) > 0.0249975 ? (rVal < 0 ? -0.9 : 0.9) : 0.0;
     }
   
     // create AudioBufferSourceNode and set data buffer
