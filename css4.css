@@ -67,9 +67,17 @@ body {
     user-select: none;
   }
 
+form.extra-paddng {
+  border-style: solid;
+}
 
-
-
+.form-group {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
   
   h1 {
     font-size: 90px;
